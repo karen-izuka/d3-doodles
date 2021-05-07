@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+rect {
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.label {
+  fill: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.select {
+  text-align: center;
+  padding: 25px;
+}
+
+#chart {
+  background-color: #4b4b4b;
+  height: 450px;
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
