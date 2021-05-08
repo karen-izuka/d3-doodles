@@ -1,9 +1,9 @@
 name,FY18,FY19,FY20,FY21
 Revenue,100,200,300,1000
-Cogs,50,100,150,500
+Cost of Sales,50,100,150,500
 Gross Profit,50,100,150,500
 Gross Margin,0.5,0.5,0.5,0.5
-Opex,25,50,75,250
-Op Income,25,50,75,250
-Op Margin,0.25,0.25,0.25,0.25
+Operating Expenses,25,50,75,250
+Operating Income,25,50,75,250
+Operating Margin,0.25,0.25,0.25,0.25
 Net Income,12.5,25,37.5,125

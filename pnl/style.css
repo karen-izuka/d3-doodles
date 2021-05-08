@@ -24,7 +24,7 @@ td {
 
 td:first-child {
   text-align: left;
-  width: 150px;
+  width: 175px;
 }
 
 tr:nth-child(even) {

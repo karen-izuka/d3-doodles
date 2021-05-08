@@ -31,7 +31,7 @@ const generateTable = (table, data) => {
         let text = document.createTextNode(`${el[key]}`);
         cell.appendChild(text);
       } else {
-        if (el.name === "Gross Margin" || el.name === "Op Margin") {
+        if (el.name === "Gross Margin" || el.name === "Operating Margin") {
           let text = document.createTextNode(`${format_02(el[key])}`);
           cell.appendChild(text);
         } else {
