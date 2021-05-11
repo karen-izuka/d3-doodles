@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+table td:nth-child(1) {
+  width: 50px;
+}
+
+table td:nth-child(2) {
+  width: 200px;
+}
+
+table td:nth-child(3) {
+  width: 50px;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+.expand-01,
+.expand-02 {
+  cursor: pointer;
+}
+
+.level-01 {
+  visibility: visible;
+  background-color: #cceeff;
+}
+
+.level-02 {
+  visibility: collapse;
+}
+
+.level-03 {
+  visibility: collapse;
+  text-indent: 10px;
+}
